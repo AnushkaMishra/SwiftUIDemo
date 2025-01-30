@@ -8,17 +8,67 @@
 
 /* Begin PBXBuildFile section */
 		22627D432CD2A4B70057591F /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22627D422CD2A4B70057591F /* SwiftUIDemoApp.swift */; };
-		22627D452CD2A4B70057591F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22627D442CD2A4B70057591F /* ContentView.swift */; };
 		22627D472CD2A4B80057591F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22627D462CD2A4B80057591F /* Assets.xcassets */; };
 		22627D4A2CD2A4B80057591F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22627D492CD2A4B80057591F /* Preview Assets.xcassets */; };
+		229CE5A42CD2B061003245E7 /* IdentityScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229CE5A32CD2B061003245E7 /* IdentityScrollViewReader.swift */; };
+		229CE5A62CD2B1A3003245E7 /* ConditionalHierarchyProblemOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229CE5A52CD2B1A3003245E7 /* ConditionalHierarchyProblemOne.swift */; };
+		B3568D4B2D3E771C00DA5455 /* AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D4A2D3E771A00DA5455 /* AnyView.swift */; };
+		B3568D4D2D3F5E5700DA5455 /* ClosureSolutionOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D4C2D3F5E5100DA5455 /* ClosureSolutionOne.swift */; };
+		B3568D4F2D3F70F400DA5455 /* AvoidBundleLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D4E2D3F70EA00DA5455 /* AvoidBundleLookup.swift */; };
+		B3568D532D3F721C00DA5455 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3568D512D3F721C00DA5455 /* Localizable.strings */; };
+		B3568D592D425C5A00DA5455 /* UnnecessaryDeclarationsOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D582D425C4C00DA5455 /* UnnecessaryDeclarationsOne.swift */; };
+		B3568D5B2D4267BD00DA5455 /* EquatableViewProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D5A2D4267B800DA5455 /* EquatableViewProblem.swift */; };
+		B3568D7C2D49468900DA5455 /* TaskVsOnappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D7B2D49468000DA5455 /* TaskVsOnappear.swift */; };
+		B3568D7E2D494EB300DA5455 /* LazyLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D7D2D494EAE00DA5455 /* LazyLoading.swift */; };
+		B3568D802D49EF9000DA5455 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D7F2D49EF8900DA5455 /* Debounce.swift */; };
+		B3568D822D49F71E00DA5455 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D812D49F71900DA5455 /* Throttle.swift */; };
+		B3568D842D4A0B3A00DA5455 /* Redacted.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D832D4A0B3800DA5455 /* Redacted.swift */; };
+		B3568D882D4AC6FB00DA5455 /* SmallerDependencyProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D872D4AC6FB00DA5455 /* SmallerDependencyProblem.swift */; };
+		B3568D8B2D4B5AEF00DA5455 /* ConditionalHierarchySolutionOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D8A2D4B5AEF00DA5455 /* ConditionalHierarchySolutionOne.swift */; };
+		B3568D972D4BB74F00DA5455 /* ConditionalHierarchyProblemTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D962D4BB74100DA5455 /* ConditionalHierarchyProblemTwo.swift */; };
+		B3568D992D4BB83700DA5455 /* ConditionalHierarchySolutionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D982D4BB83700DA5455 /* ConditionalHierarchySolutionTwo.swift */; };
+		B3568D9B2D4BB8F200DA5455 /* EquatableViewSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D9A2D4BB8F200DA5455 /* EquatableViewSolution.swift */; };
+		B3568D9D2D4BB9A300DA5455 /* ClosureProblemOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568D9C2D4BB99E00DA5455 /* ClosureProblemOne.swift */; };
+		B3568DBC2D4BF4C700DA5455 /* ConditionUnderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568DBB2D4BF4BD00DA5455 /* ConditionUnderList.swift */; };
+		B3568DC02D4BF6AE00DA5455 /* ClosureProblemTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568DBF2D4BF6A600DA5455 /* ClosureProblemTwo.swift */; };
+		B3568DC32D4BF6C700DA5455 /* ClosureSolutionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3568DC22D4BF6C600DA5455 /* ClosureSolutionTwo.swift */; };
+		B35BD96C2D36907100AB739D /* SmallerDependencySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BD96B2D36907100AB739D /* SmallerDependencySolution.swift */; };
+		B38815382D4BFE5700208C9E /* UnnecessaryDeclarationsTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38815372D4BFE5700208C9E /* UnnecessaryDeclarationsTwo.swift */; };
+		B388153A2D4BFF6500208C9E /* UnnecessaryDeclarationsThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38815392D4BFF6500208C9E /* UnnecessaryDeclarationsThree.swift */; };
+		B388153C2D4C022C00208C9E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B388153B2D4C022A00208C9E /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22627D3F2CD2A4B70057591F /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22627D422CD2A4B70057591F /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
-		22627D442CD2A4B70057591F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22627D462CD2A4B80057591F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22627D492CD2A4B80057591F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		229CE5A32CD2B061003245E7 /* IdentityScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityScrollViewReader.swift; sourceTree = "<group>"; };
+		229CE5A52CD2B1A3003245E7 /* ConditionalHierarchyProblemOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalHierarchyProblemOne.swift; sourceTree = "<group>"; };
+		B3568D4A2D3E771A00DA5455 /* AnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyView.swift; sourceTree = "<group>"; };
+		B3568D4C2D3F5E5100DA5455 /* ClosureSolutionOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureSolutionOne.swift; sourceTree = "<group>"; };
+		B3568D4E2D3F70EA00DA5455 /* AvoidBundleLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidBundleLookup.swift; sourceTree = "<group>"; };
+		B3568D522D3F721C00DA5455 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3568D582D425C4C00DA5455 /* UnnecessaryDeclarationsOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnnecessaryDeclarationsOne.swift; sourceTree = "<group>"; };
+		B3568D5A2D4267B800DA5455 /* EquatableViewProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableViewProblem.swift; sourceTree = "<group>"; };
+		B3568D7B2D49468000DA5455 /* TaskVsOnappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskVsOnappear.swift; sourceTree = "<group>"; };
+		B3568D7D2D494EAE00DA5455 /* LazyLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoading.swift; sourceTree = "<group>"; };
+		B3568D7F2D49EF8900DA5455 /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
+		B3568D812D49F71900DA5455 /* Throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
+		B3568D832D4A0B3800DA5455 /* Redacted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redacted.swift; sourceTree = "<group>"; };
+		B3568D872D4AC6FB00DA5455 /* SmallerDependencyProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerDependencyProblem.swift; sourceTree = "<group>"; };
+		B3568D8A2D4B5AEF00DA5455 /* ConditionalHierarchySolutionOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalHierarchySolutionOne.swift; sourceTree = "<group>"; };
+		B3568D962D4BB74100DA5455 /* ConditionalHierarchyProblemTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalHierarchyProblemTwo.swift; sourceTree = "<group>"; };
+		B3568D982D4BB83700DA5455 /* ConditionalHierarchySolutionTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalHierarchySolutionTwo.swift; sourceTree = "<group>"; };
+		B3568D9A2D4BB8F200DA5455 /* EquatableViewSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableViewSolution.swift; sourceTree = "<group>"; };
+		B3568D9C2D4BB99E00DA5455 /* ClosureProblemOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureProblemOne.swift; sourceTree = "<group>"; };
+		B3568DBB2D4BF4BD00DA5455 /* ConditionUnderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionUnderList.swift; sourceTree = "<group>"; };
+		B3568DBF2D4BF6A600DA5455 /* ClosureProblemTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureProblemTwo.swift; sourceTree = "<group>"; };
+		B3568DC22D4BF6C600DA5455 /* ClosureSolutionTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureSolutionTwo.swift; sourceTree = "<group>"; };
+		B35BD96B2D36907100AB739D /* SmallerDependencySolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerDependencySolution.swift; sourceTree = "<group>"; };
+		B38815372D4BFE5700208C9E /* UnnecessaryDeclarationsTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnnecessaryDeclarationsTwo.swift; sourceTree = "<group>"; };
+		B38815392D4BFF6500208C9E /* UnnecessaryDeclarationsThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnnecessaryDeclarationsThree.swift; sourceTree = "<group>"; };
+		B388153B2D4C022A00208C9E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +101,9 @@
 		22627D412CD2A4B70057591F /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B3568D5C2D43A4B700DA5455 /* Excersises */,
+				B3568D502D3F71C400DA5455 /* Resources */,
 				22627D422CD2A4B70057591F /* SwiftUIDemoApp.swift */,
-				22627D442CD2A4B70057591F /* ContentView.swift */,
 				22627D462CD2A4B80057591F /* Assets.xcassets */,
 				22627D482CD2A4B80057591F /* Preview Content */,
 			);
@@ -65,6 +116,158 @@
 				22627D492CD2A4B80057591F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3568D502D3F71C400DA5455 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D512D3F721C00DA5455 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3568D5C2D43A4B700DA5455 /* Excersises */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D862D4AC6EB00DA5455 /* 1. SmallerDependency */,
+				B3568D952D4BB56400DA5455 /* 2. Unnecessary Declarations */,
+				B3568D892D4AC8A700DA5455 /* 3. ConditionalHierarchy */,
+				B3568D8C2D4BB47400DA5455 /* 4. EquatableViews */,
+				B3568D8D2D4BB48A00DA5455 /* 5. ConditionUnderList */,
+				B3568D8E2D4BB49D00DA5455 /* 6. AnyView */,
+				B3568D8F2D4BB4AF00DA5455 /* 7. Closures */,
+				B3568D902D4BB4BB00DA5455 /* 8. AvoidBundleLookup */,
+				B3568D852D4A9B5300DA5455 /* 9. TaskVsOnAppear */,
+				B3568D912D4BB4DC00DA5455 /* 10. LazyLoading */,
+				B3568D922D4BB4EC00DA5455 /* 11. Debounce */,
+				B3568D932D4BB4FC00DA5455 /* 12. Throttle */,
+				B3568D942D4BB50A00DA5455 /* 13. Redacted */,
+				B35BD9682D368F7A00AB739D /* Prerequisite */,
+			);
+			path = Excersises;
+			sourceTree = "<group>";
+		};
+		B3568D852D4A9B5300DA5455 /* 9. TaskVsOnAppear */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D7B2D49468000DA5455 /* TaskVsOnappear.swift */,
+			);
+			path = "9. TaskVsOnAppear";
+			sourceTree = "<group>";
+		};
+		B3568D862D4AC6EB00DA5455 /* 1. SmallerDependency */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D872D4AC6FB00DA5455 /* SmallerDependencyProblem.swift */,
+				B35BD96B2D36907100AB739D /* SmallerDependencySolution.swift */,
+			);
+			path = "1. SmallerDependency";
+			sourceTree = "<group>";
+		};
+		B3568D892D4AC8A700DA5455 /* 3. ConditionalHierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				229CE5A52CD2B1A3003245E7 /* ConditionalHierarchyProblemOne.swift */,
+				B3568D8A2D4B5AEF00DA5455 /* ConditionalHierarchySolutionOne.swift */,
+				B3568D962D4BB74100DA5455 /* ConditionalHierarchyProblemTwo.swift */,
+				B3568D982D4BB83700DA5455 /* ConditionalHierarchySolutionTwo.swift */,
+			);
+			path = "3. ConditionalHierarchy";
+			sourceTree = "<group>";
+		};
+		B3568D8C2D4BB47400DA5455 /* 4. EquatableViews */ = {
+			isa = PBXGroup;
+			children = (
+				B388153B2D4C022A00208C9E /* Common.swift */,
+				B3568D5A2D4267B800DA5455 /* EquatableViewProblem.swift */,
+				B3568D9A2D4BB8F200DA5455 /* EquatableViewSolution.swift */,
+			);
+			path = "4. EquatableViews";
+			sourceTree = "<group>";
+		};
+		B3568D8D2D4BB48A00DA5455 /* 5. ConditionUnderList */ = {
+			isa = PBXGroup;
+			children = (
+				B3568DBB2D4BF4BD00DA5455 /* ConditionUnderList.swift */,
+			);
+			path = "5. ConditionUnderList";
+			sourceTree = "<group>";
+		};
+		B3568D8E2D4BB49D00DA5455 /* 6. AnyView */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D4A2D3E771A00DA5455 /* AnyView.swift */,
+			);
+			path = "6. AnyView";
+			sourceTree = "<group>";
+		};
+		B3568D8F2D4BB4AF00DA5455 /* 7. Closures */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D9C2D4BB99E00DA5455 /* ClosureProblemOne.swift */,
+				B3568D4C2D3F5E5100DA5455 /* ClosureSolutionOne.swift */,
+				B3568DBF2D4BF6A600DA5455 /* ClosureProblemTwo.swift */,
+				B3568DC22D4BF6C600DA5455 /* ClosureSolutionTwo.swift */,
+			);
+			path = "7. Closures";
+			sourceTree = "<group>";
+		};
+		B3568D902D4BB4BB00DA5455 /* 8. AvoidBundleLookup */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D4E2D3F70EA00DA5455 /* AvoidBundleLookup.swift */,
+			);
+			path = "8. AvoidBundleLookup";
+			sourceTree = "<group>";
+		};
+		B3568D912D4BB4DC00DA5455 /* 10. LazyLoading */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D7D2D494EAE00DA5455 /* LazyLoading.swift */,
+			);
+			path = "10. LazyLoading";
+			sourceTree = "<group>";
+		};
+		B3568D922D4BB4EC00DA5455 /* 11. Debounce */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D7F2D49EF8900DA5455 /* Debounce.swift */,
+			);
+			path = "11. Debounce";
+			sourceTree = "<group>";
+		};
+		B3568D932D4BB4FC00DA5455 /* 12. Throttle */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D812D49F71900DA5455 /* Throttle.swift */,
+			);
+			path = "12. Throttle";
+			sourceTree = "<group>";
+		};
+		B3568D942D4BB50A00DA5455 /* 13. Redacted */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D832D4A0B3800DA5455 /* Redacted.swift */,
+			);
+			path = "13. Redacted";
+			sourceTree = "<group>";
+		};
+		B3568D952D4BB56400DA5455 /* 2. Unnecessary Declarations */ = {
+			isa = PBXGroup;
+			children = (
+				B3568D582D425C4C00DA5455 /* UnnecessaryDeclarationsOne.swift */,
+				B38815372D4BFE5700208C9E /* UnnecessaryDeclarationsTwo.swift */,
+				B38815392D4BFF6500208C9E /* UnnecessaryDeclarationsThree.swift */,
+			);
+			path = "2. Unnecessary Declarations";
+			sourceTree = "<group>";
+		};
+		B35BD9682D368F7A00AB739D /* Prerequisite */ = {
+			isa = PBXGroup;
+			children = (
+				229CE5A32CD2B061003245E7 /* IdentityScrollViewReader.swift */,
+			);
+			path = Prerequisite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22627D4A2CD2A4B80057591F /* Preview Assets.xcassets in Resources */,
+				B3568D532D3F721C00DA5455 /* Localizable.strings in Resources */,
 				22627D472CD2A4B80057591F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,12 +341,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22627D452CD2A4B70057591F /* ContentView.swift in Sources */,
+				B3568D822D49F71E00DA5455 /* Throttle.swift in Sources */,
+				B35BD96C2D36907100AB739D /* SmallerDependencySolution.swift in Sources */,
+				229CE5A42CD2B061003245E7 /* IdentityScrollViewReader.swift in Sources */,
+				B3568D9B2D4BB8F200DA5455 /* EquatableViewSolution.swift in Sources */,
+				B3568D7E2D494EB300DA5455 /* LazyLoading.swift in Sources */,
+				B3568D8B2D4B5AEF00DA5455 /* ConditionalHierarchySolutionOne.swift in Sources */,
+				B3568D802D49EF9000DA5455 /* Debounce.swift in Sources */,
+				B3568DC32D4BF6C700DA5455 /* ClosureSolutionTwo.swift in Sources */,
+				B3568D4F2D3F70F400DA5455 /* AvoidBundleLookup.swift in Sources */,
+				B3568DBC2D4BF4C700DA5455 /* ConditionUnderList.swift in Sources */,
+				B3568D7C2D49468900DA5455 /* TaskVsOnappear.swift in Sources */,
+				B3568DC02D4BF6AE00DA5455 /* ClosureProblemTwo.swift in Sources */,
+				B3568D882D4AC6FB00DA5455 /* SmallerDependencyProblem.swift in Sources */,
+				B388153C2D4C022C00208C9E /* Common.swift in Sources */,
+				B3568D842D4A0B3A00DA5455 /* Redacted.swift in Sources */,
+				B388153A2D4BFF6500208C9E /* UnnecessaryDeclarationsThree.swift in Sources */,
+				B3568D972D4BB74F00DA5455 /* ConditionalHierarchyProblemTwo.swift in Sources */,
+				B3568D5B2D4267BD00DA5455 /* EquatableViewProblem.swift in Sources */,
+				B3568D992D4BB83700DA5455 /* ConditionalHierarchySolutionTwo.swift in Sources */,
+				B3568D592D425C5A00DA5455 /* UnnecessaryDeclarationsOne.swift in Sources */,
+				B3568D4B2D3E771C00DA5455 /* AnyView.swift in Sources */,
+				B3568D4D2D3F5E5700DA5455 /* ClosureSolutionOne.swift in Sources */,
+				229CE5A62CD2B1A3003245E7 /* ConditionalHierarchyProblemOne.swift in Sources */,
+				B3568D9D2D4BB9A300DA5455 /* ClosureProblemOne.swift in Sources */,
 				22627D432CD2A4B70057591F /* SwiftUIDemoApp.swift in Sources */,
+				B38815382D4BFE5700208C9E /* UnnecessaryDeclarationsTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3568D512D3F721C00DA5455 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3568D522D3F721C00DA5455 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		22627D4B2CD2A4B80057591F /* Debug */ = {
