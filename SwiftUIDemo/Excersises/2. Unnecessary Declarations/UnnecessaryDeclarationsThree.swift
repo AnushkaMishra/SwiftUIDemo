@@ -12,7 +12,7 @@ struct UnnecessaryDeclarationsThree: View {
     var body: some View {
         VStack {
             VStack {
-                TestBindingView(number: number)
+                TestPassedDependencyView(number: number)
             }
             Button("change") {
                 number = Int.random(in: 0...100)
@@ -21,7 +21,7 @@ struct UnnecessaryDeclarationsThree: View {
     }
 }
 
-struct TestBindingView: View {
+struct TestPassedDependencyView: View {
     let number: Int
     var body: some View {
         let _ = Self._printChanges()

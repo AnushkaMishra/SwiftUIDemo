@@ -22,7 +22,7 @@ struct UnnecessaryDeclarationsOne: View {
     var body: some View {
         VStack {
             VStack {
-                EnvSubView()
+                TestEnvView()
             }
             .environment(\.myValue, i)
             Button("change") {
@@ -32,7 +32,7 @@ struct UnnecessaryDeclarationsOne: View {
     }
 }
 
-struct EnvSubView: View {
+struct TestEnvView: View {
     @Environment(\.myValue) private var myValue
     var body: some View {
         let _ = Self._printChanges()

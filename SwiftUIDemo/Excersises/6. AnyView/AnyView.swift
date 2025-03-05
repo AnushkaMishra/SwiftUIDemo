@@ -38,7 +38,7 @@ struct AnyListView: View {
 struct AnyViewBootCamp: View {
     private var model = Model.shared
     @State private var startTime: Date?
-        @State private var elapsedTime: TimeInterval?
+    @State private var elapsedTime: TimeInterval?
     
     var body: some View {
         NavigationStack {

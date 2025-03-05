@@ -32,14 +32,14 @@ struct NormalListViewWithConditionSolution: View {
 struct ConditionUnderListView: View {
     private var model = Model.shared
     @State private var startTime: Date?
-        @State private var elapsedTime: TimeInterval?
+    @State private var elapsedTime: TimeInterval?
     
     var body: some View {
         NavigationStack {
             VStack(spacing: 20) {
                 NavigationLink { NormalListViewWithConditionProblem(items: model.items50K).onAppear {
-                    measureTime("NormalListView")
-                } } label: { Text("NormalView 50K").simultaneousGesture(TapGesture().onEnded {
+                    measureTime("NormalListViewWithCondition")
+                } } label: { Text("ListView with conditional statement - 50K").simultaneousGesture(TapGesture().onEnded {
                     startTime = Date() // Capture the time when the link is tapped
                 }) }
                 

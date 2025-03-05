@@ -22,16 +22,16 @@ struct ClosureProblemOne: View {
 
 struct CollapsableProblemOne<Content: View>: View {
     @State var collapsed: Bool = true
-    let content: Content
+    let content: () -> Content
     
-    init(@ViewBuilder content: () -> Content) {
-        self.content = content()
+    init(@ViewBuilder content: @escaping () -> Content) {
+        self.content = content
     }
     
     var body: some View {
         VStack {
             if !collapsed {
-                content
+                content()
             }
             Button(collapsed ? "↓ open" : "↑ close") {
                 collapsed.toggle()

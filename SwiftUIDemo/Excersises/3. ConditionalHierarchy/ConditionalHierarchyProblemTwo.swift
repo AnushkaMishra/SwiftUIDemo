@@ -23,7 +23,6 @@ struct SampleOne: View {
    var flag: Bool
    var body: some View {
        Stateful()
-//            .background(flag ? .red : .clear)
            .applyIf(condition: flag) {
            $0.background(Color.red)
        }

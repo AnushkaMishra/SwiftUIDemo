@@ -91,11 +91,6 @@ struct PawView: View {
  “Branches are great, and they exist in SwiftUI for a reason. But when used unnecessarily, they can cause poor performance, surprising animations, and […] even loss of state.
 
  When you introduce a branch, pause for a second and consider whether you're representing multiple views or two states of the same view.”
- 
- */
-
-
-/*
 
 Inert modifiers:
  
